@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+/*Parte da esquerda*/
+
+.text {
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -55px;
+    width: 520px;
+    font-style: none;
+    line-height: 35px;
+}
+
+.logo {
+    font-size: 55px;
+    color: #1877f2;
+}
+
+.facebook {
+    padding-left: 185px;
+    padding-top: 10%;
+    width: 460px;
+    float: left;
+    font-family: Segoe UI;
+}
+
+/*Parte da direita*/
+
+.cadastro {
+    background-color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    float: right;
+    border: 1px solid rgba(177, 177, 177, 0.541);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.027);
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 17px 15px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    font-family: Segoe UI;
+}
+
+.cadastro-login {
+    flex-direction: column;
+    display: flex;
+    width: 360px;
+}
+
+.email {
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: start;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    font-family: Segoe UI;
+    font-size: 17px;
+}
+
+.senha {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    font-family: Segoe UI;
+    font-size: 17px;
+}
+
+.cadastro .botao {
+    flex-direction: column;
+    display: flex;
+    padding-top: 15px;
+}
+
+.botao-entrar {
+    margin-top: 8px;
+    padding: 12px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.esqueceu-senha {
+    padding-top: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 15px;
+}
+
+.linha-horizontal {
+    width: 360px;
+    border: 1px solid rgb(223, 223, 223);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nova-conta {
+    font-size: 15px;
+    width: 170px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.texto-bloco{
+    font-size: 14px;
+    font-family: Segoe UI;
+    padding-top: 505px;
+    padding-left: 780px;
+    text-decoration: none;
+}
+
+.criarPag {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
